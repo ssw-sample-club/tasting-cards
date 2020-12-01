@@ -30,14 +30,24 @@
             <div class="sidebar-header">
                 <h3>Sample Pack Flights</h3>
             </div>
-            <ul class="list-unstyled components" data-bind="foreach: flights">
-                <li data-bind="attr: { class: getActive() }">
-                    <a data-bind="attr: { href: url() }, text: name()"></a>
+            <ul class="list-unstyled sub-header" data-bind="foreach: months">
+                <li class="active">
+                    <p data-bind="text: month()"></p>
+                    <ul class="list-unstyled" data-bind="foreach: flights">
+                        <li data-bind="attr: { class: getActive() }">
+                            <a data-bind="attr: { href: url() }, text: name()"></a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>
         <div id="content">
             <div>
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    View Flights
+                </button>
+
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
                         <h1 class="display-4" data-bind="text: activeFlight().name()"></h1>
@@ -61,8 +71,10 @@
                                         <ul>
                                             <li><strong>Proof:</strong> <span data-bind="text: proof()"></span></li>
                                             <li><strong>Age:</strong> <span data-bind="text: age()"></span></li>
-                                            <li><strong>Distillery:</strong> <span data-bind="text: distillery()"></span></li>
-                                            <li><strong>Location:</strong> <span data-bind="text: location()"></span></li>
+                                            <li><strong>Distillery:</strong> <span
+                                                    data-bind="text: distillery()"></span></li>
+                                            <li><strong>Location:</strong> <span data-bind="text: location()"></span>
+                                            </li>
                                             <li><strong>MSRP:</strong> <span data-bind="text: msrp()"></span></li>
                                         </ul>
                                     </td>
@@ -72,15 +84,14 @@
                                         <strong>Description</strong><br />
                                         <span data-bind="text: description()"></span><br />
                                         <strong>Tasting Notes</strong><br />
-                                        <strong>Nose:</strong> <span data-bind="text: notes().nose"></span>
-                                        <strong>Palate:</strong> <span data-bind="text: notes().palate"></span>
-                                        <strong>Finish:</strong> <span data-bind="text: notes().finish"></span>
+                                        <span data-bind="html: tastingNotes()"></span>
                                         <br /><strong>Mashbill</strong><br /><span data-bind="text: mashbill()"></span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td colspan="3" style="text-align: center;">
-                                        <a target="_blank" data-bind="attr: { href: url()}">Official Website</a>
+                                        <a target="_blank" class="dram-link" data-bind="attr: { href: url()}">Official
+                                            Website</a>
                                     </td>
                                 </tr>
                             </table>

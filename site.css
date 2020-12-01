@@ -1,6 +1,4 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
-
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -19,6 +17,12 @@ a, a:hover, a:focus {
     text-decoration: none;
     transition: all 0.3s;
 }
+.dram-link{
+    color: #586fd6;
+}
+.dram-link:hover, .dram-link:focus {
+    text-decoration: underline;
+}
 
 .wrapper {
     display: flex;
@@ -33,14 +37,27 @@ a, a:hover, a:focus {
     color: #fff;
     transition: all 0.3s;
 }
-#content{
-    width:100%;
+
+#content {
+    width: 100%;
 }
+
 #sidebar .sidebar-header {
+    width: 100%;
     padding: 20px;
     background: #586fd6;
 }
-
+#sidebar .sub-header{
+    font-size: 1.4em;
+    color: #364066;
+    padding: 10px;
+    /*background: #6d7fcc;*/
+}
+#sidebar .sub-header li p {
+    padding-left: 10px;
+    border-top: 2px solid #47748b;
+    border-bottom: 1px solid #47748b;
+}
 #sidebar ul.components {
     padding: 20px 0;
     border-bottom: 1px solid #47748b;
@@ -48,7 +65,7 @@ a, a:hover, a:focus {
 
 #sidebar ul p {
     color: #fff;
-    padding: 10px;
+    padding: 0px;
 }
 
 #sidebar ul li a {
@@ -56,48 +73,91 @@ a, a:hover, a:focus {
     font-size: 1.1em;
     display: block;
 }
+
 #sidebar ul li a:hover {
     color: #586fd6;
     background: #fff;
 }
 
-#sidebar ul li.active > a, a[aria-expanded="true"] {
+#sidebar ul li.active>a, a[aria-expanded="true"] {
     color: #fff;
     background: #586fd6;
 }
+
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    color: #fff;
+    /*background: #6d7fcc;*/
 }
+
 .dram {
     min-width: 600px;
     max-width: 600px;
     min-height: 400px;
 }
-.dram-description{
+
+.dram-description {
     text-align: justify;
-    font-size: small;    
+    font-size: small;
 }
-.dram-facts{
+
+.dram-facts {
     font-size: small;
     vertical-align: top;
     max-width: 100px;
     min-width: 100px;
 }
+
 .dram-facts ul {
     margin-left: 10px;
     padding: 5px;
-    list-style-type: none;    
+    list-style-type: none;
 }
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+#sidebarCollapse {
+    background: #586fd6;
+    width: 100%;
+}
+
 @media (max-width: 700px) {
     .dram {
-        min-width: 200px;
+        min-width: 600px;
     }
+    #sidebar {
+        margin-left: -350px;
     }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
 @media (min-width: 700px) {
+    #sidebarCollapse {
+        display: none;
+    }
 }
+
 @media (min-width: 1000px) {
+    #sidebarCollapse {
+        display: none;
+    }
 }
+
 @media (min-width: 1400px) {
+    #sidebarCollapse {
+        display: none;
+    }
 }

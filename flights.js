@@ -1,4 +1,25 @@
 function FlightListViewModel() {
+    function Month(data) {
+        this.month = ko.observable(data.month);
+        var mappedFlights = $.map(data.flights, f => new Flight(f));
+        this.flights = ko.observableArray(mappedFlights);
+        this.getActive = () => {
+            var params = new URLSearchParams(window.location.search);
+            if (params.has("flight")) {
+                var flight = this.flights().find(f => f.name().toLowerCase() == params.get("flight").toLowerCase());
+                if (flight) {
+                    console.log("Active month:", this.month());
+                    return "active";
+                }
+            }
+            return "";            
+        };
+        this.expanded = () => {
+            if(this.getActive() == "active") return "true";
+            return "false";
+        };
+        this.url = () => "";
+    }
     function Flight(data) {
         this.name = ko.observable(data.name);
         this.description = ko.observable(data.description);
@@ -19,7 +40,7 @@ function FlightListViewModel() {
     function Dram(data) {
         this.name = ko.observable(data.name);
         this.description = ko.observable(data.description);
-        this.notes = ko.observable(data.notes);
+        this.tastingNotes = ko.observable(data.tastingNotes);
         this.proof = ko.observable(data.proof);
         this.url = ko.observable(data.url);
         this.age = ko.observable(data.age);
@@ -28,23 +49,28 @@ function FlightListViewModel() {
         this.msrp = ko.observable(data.msrp);
         this.mashbill = ko.observable(data.mashbill);
         this.image = ko.observable(data.image);
-        console.log(this.image());
     }
     var self = this;
-    self.flights = ko.observableArray([]);
+    //self.flights = ko.observableArray([]);
+    self.months = ko.observableArray([]);
     self.activeFlight = ko.observable(new Flight({ name: ko.observable("Select a flight") }));
 
     // Load initial state from server, convert it to Task instances, then populate self.tasks
     $.getJSON("flights.json", function (allData) {
-        var mappedFlights = $.map(allData, function (item) { return new Flight(item) });
-        self.flights(mappedFlights);
+        var mappedMonths = $.map(allData, m => new Month(m));
+        self.months(mappedMonths);
         self.setActiveFlight();
     });
 
     self.setActiveFlight = function () {
         var params = new URLSearchParams(window.location.search);
-        if (params.has("flight") && self.flights()) {
-            self.activeFlight(self.flights().find(f => f.name().toLowerCase() == params.get("flight").toLowerCase()));
+        if (params.has("flight") && self.months()) {
+            self.months().forEach(m => {
+                var flight = m.flights().find(f => f.name().toLowerCase() == params.get("flight").toLowerCase());
+                if(flight){
+                    self.activeFlight(flight);
+                }
+            });
             console.log("Active flight: ", self.activeFlight().name());
         }
     }
@@ -52,4 +78,7 @@ function FlightListViewModel() {
 
 $(document).ready(function () {
     ko.applyBindings(new FlightListViewModel());
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+    });
 });
