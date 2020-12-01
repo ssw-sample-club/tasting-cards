@@ -6,7 +6,37 @@
                 "name": "December 2020 Flight 1",
                 "description": "The 12 Ryes of Christmas part 1",
                 "url": "index.html?flight=December 2020 Flight 1",
-                "drams": []
+                "drams": 
+                [
+                    {
+                        "timestamp": "2020-12-01T17:14:55.107Z",
+                        "name": "Jack Daniels Single Barrel Rye",
+                        "description": "This historic creation marries the smoothness of Jack Daniel’s with a unique 70% rye grain bill. Complex flavors of ripe fruit mingle with light toasted oak notes to create a taste rich with spice and a pleasant lingering finish. This is a big, bold rye that does not overpower.",
+                        "tastingNotes": "Complex flavors of ripe fruit mingled with light toasted oak notes, creating a taste rich with spice and a pleasant lingering finish.",
+                        "proof": 94,
+                        "age": "NAS",
+                        "distillery": "Jack Daniels",
+                        "location": "Lynchburg, TN",
+                        "msrp": 45,
+                        "mashbill": "70% rye, 18% corn, 12% barley",
+                        "url": "https://www.jackdaniels.com/en-us/whiskey/single-barrel-rye",
+                        "image": "images/jack_daniels_single_barrel_rye.png"
+                    },
+                    {
+                        "timestamp": "2020-12-01T17:59:25.037Z",
+                        "name": "WhistlePig PiggyBack Rye",
+                        "description": "In the summer of 2018, the late, legendary Dave Pickerell returned to our barrelhouses with one mission in mind: create the best Rye Whiskey for use in the world’s best cocktails. He knew he wanted a mashbill of 100% rye to capture a full-flavored spice.",
+                        "tastingNotes": "NOSE: Fresh cinnamon, black peppercorn, a hint of tangerine and grapefruit zest.\n<br/>PALATE: Powerfully spicy, with cocoa, cardamom and cured leather flavors.\n<br/>FINISH: Wonderfully lengthy, with baking spices, vanilla and hints of citrus.",
+                        "proof": 96.56,
+                        "age": "6 years",
+                        "distillery": "WhistlePig",
+                        "location": "Shoreham, VT",
+                        "msrp": 50,
+                        "mashbill": "100% rye",
+                        "url": "https://whistlepigwhiskey.com/whiskeys/piggyback-rye/",
+                        "image": "images/whistlepig_piggybackrye.png"
+                    }                    
+                ]                
             },
             {
                 "name": "December 2020 Flight 2",
