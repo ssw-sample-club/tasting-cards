@@ -17,9 +17,11 @@ a, a:hover, a:focus {
     text-decoration: none;
     transition: all 0.3s;
 }
-.dram-link{
+
+.dram-link {
     color: #586fd6;
 }
+
 .dram-link:hover, .dram-link:focus {
     text-decoration: underline;
 }
@@ -47,17 +49,20 @@ a, a:hover, a:focus {
     padding: 20px;
     background: #586fd6;
 }
-#sidebar .sub-header{
+
+#sidebar .sub-header {
     font-size: 1.4em;
     color: #364066;
     padding: 10px;
     /*background: #6d7fcc;*/
 }
+
 #sidebar .sub-header li p {
     padding-left: 10px;
     border-top: 2px solid #47748b;
     border-bottom: 1px solid #47748b;
 }
+
 #sidebar ul.components {
     padding: 20px 0;
     border-bottom: 1px solid #47748b;
@@ -96,15 +101,18 @@ ul ul a {
     max-width: 600px;
     min-height: 400px;
 }
-.dram-center{
+
+.dram-center {
     text-align: center;
-    margin:auto;
-    width:50%;
+    margin: auto;
+    width: 50%;
     padding: 5px;
 }
-.dram-title{
+
+.dram-title {
     text-align: center;
 }
+
 .dram-description {
     text-align: justify;
     font-size: small;
@@ -118,12 +126,12 @@ ul ul a {
 }
 
 .dram-facts ul {
-    
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    width:100%;
+    width: 100%;
 }
+
 .dram-facts ul li {
     padding: 4px;
 }
@@ -145,9 +153,36 @@ a[data-toggle="collapse"] {
     width: 100%;
 }
 
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) and (max-device-width : 480px) {
+    /* Styles */
+    .dram {
+        min-width: 300px;
+    }
+    #sidebar {
+        margin-left: -350px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .dram {
+        min-width: 300px;
+    }
+    #sidebar {
+        margin-left: -350px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 700px) {
     .dram {
-        min-width: 500px;
+        min-width: 300px;
     }
     #sidebar {
         margin-left: -350px;
