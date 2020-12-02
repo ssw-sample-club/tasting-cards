@@ -6,8 +6,7 @@
                 "name": "December 2020 Flight 1",
                 "description": "The 12 Ryes of Christmas part 1",
                 "url": "index.html?flight=December 2020 Flight 1",
-                "drams": 
-                [
+                "drams": [
                     {
                         "timestamp": "2020-12-01T17:14:55.107Z",
                         "name": "Jack Daniels Single Barrel Rye",
@@ -20,7 +19,7 @@
                         "msrp": 45,
                         "mashbill": "70% rye, 18% corn, 12% barley",
                         "url": "https://www.jackdaniels.com/en-us/whiskey/single-barrel-rye",
-                        "image": "images/jack_daniels_single_barrel_rye.png"
+                        "image": "images/202012-1/jack_daniels_single_barrel_rye.png"
                     },
                     {
                         "timestamp": "2020-12-01T17:59:25.037Z",
@@ -34,9 +33,65 @@
                         "msrp": 50,
                         "mashbill": "100% rye",
                         "url": "https://whistlepigwhiskey.com/whiskeys/piggyback-rye/",
-                        "image": "images/WhistlePig_PiggyBackRye.png"
-                    }                    
-                ]                
+                        "image": "images/202012-1/WhistlePig_PiggyBackRye.png"
+                    },
+                    {
+                        "timestamp": "2020-12-02T00:07:49.188Z",
+                        "name": "Sazerac Rye",
+                        "description": "Sazerac Rye Whiskey symbolizes the tradition and history of New Orleans. Rye Whiskey dates back to the 1800’s, around the time when saloons, veiled as Coffee Houses, began lining the streets of New Orleans. It was at the Sazerac Coffee House on Royal Street where local patrons were served toddies made with Rye Whiskey and Peychaud’s Bitters.",
+                        "tastingNotes": "Aromas of clove, vanilla, anise and pepper. Subtle notes of candied spices and citrus. The big finish is smooth with hints of licorice.",
+                        "proof": 90,
+                        "age": "NAS",
+                        "distillery": "Buffalo Trace",
+                        "location": "Frankfort, KY",
+                        "msrp": 30,
+                        "mashbill": "Undisclosed",
+                        "url": "https://www.buffalotracedistillery.com/our-brands/sazerac/sazerac-rye.html",
+                        "image": "images/202012-1/sazerac_rye.png"
+                    },
+                    {
+                        "timestamp": "2020-12-02T00:20:09.328Z",
+                        "name": "Knob Creek Straight Rye",
+                        "description": "World’s Best Rye 2016 IWSC. (2016 International Wine and Spirits Competition Best Rye Worldwide Whiskey).",
+                        "tastingNotes": "Color: Shades of gold to light amber.\n<br/>Taste: Bold rye spiciness with undertones of vanilla and oak.\n<br/>Aroma: Expansive notes of herbs and rye with nuances of oak.",
+                        "proof": 100,
+                        "age": "NAS",
+                        "distillery": "Jim Beam",
+                        "location": "Clermont, KY",
+                        "msrp": 30,
+                        "mashbill": "Undisclosed",
+                        "url": "https://www.knobcreek.com/our-products/straight-rye-whiskey",
+                        "image": "images/202012-1/knob_creek_rye.png"
+                    },
+                    {
+                        "timestamp": "2020-12-02T00:32:00.888Z",
+                        "name": "Old Forester Straight Rye",
+                        "description": "A historic recipe, acquired in 1940 by Owsley Brown I, Old Forester Rye features a mash bill of 65% Rye, 20% Malted Barley, and 15% Corn. Such a high proportion of barley allows for a fully natural fermentation process, forgoing the need for artificial enzymes commonly found in high rye mash bills. ",
+                        "tastingNotes": "AROMA: Rich brown sugar and magnolia blossom, with hints of soft sassafras and candied lemon.\n<br/>TASTE: Spice awakens immediately leading with sharp black pepper and cinnamon stick, rounding out with notes of dried dill and baked apple.\n<br/>FINISH: Allspice and peppercorn introduce a loyal and dry finish which ignites with pine, anise, and bright lemon zest.",
+                        "proof": 100,
+                        "age": "NAS",
+                        "distillery": "Brown-Forman",
+                        "location": "Louisville, KY",
+                        "msrp": 23,
+                        "mashbill": "65% Rye, 20% Malted Barley, and 15% Corn",
+                        "url": "https://www.oldforester.com/products/old-forester-100-proof-rye-whisky/",
+                        "image": "images/202012-1/old_forester_rye.png"
+                    },
+                    {
+                        "timestamp": "2020-12-02T00:38:44.338Z",
+                        "name": "Sagamore Spirit Double Oak Straight Rye",
+                        "description": "Three diamonds. Two Barrels. One extraordinary Straight Rye Whiskey. After aging our award-winning spirit for four years, we place it into a second oak barrel — and wait. The new toasted staves reenergize the aging process, creating flavors full of caramel and dark vanilla and colors that radiate amber and warm chestnut. It’s a straight rye whiskey perfect for the spirit of celebration.",
+                        "tastingNotes": "Aroma: Baking spices, dried orange peel, and warm cinnamon.\n<br/>Palate: Smooth caramel and rich toasted coconut. Nutty flavors of hazelnut and pecan meld perfectly with vanilla and caramel.\n<br/>Color: Golden amber.",
+                        "proof": 96.6,
+                        "age": "4-5 years",
+                        "distillery": "Sagamore Spirit",
+                        "location": "Indiana",
+                        "msrp": 55,
+                        "mashbill": "95% rye, 5% barley malt (MGP Rye)",
+                        "url": "https://sagamorespirit.com/spirits/double-oak-rye-whiskey/",
+                        "image": "images/202012-1/sagamore_double_oak_rye.png"
+                    }
+                ]
             },
             {
                 "name": "December 2020 Flight 2",
@@ -81,7 +136,7 @@
                         "distillery": "Four Roses",
                         "location": "Lawrenceburg, KY",
                         "msrp": "$30",
-                        "image": "images/four_roses_small_batch.png",
+                        "image": "images/202010/four_roses_small_batch.png",
                         "mashbill": "Two mash bills, and a blend of four recipes. OBSK (Rye Spice), OESK (Baking Spice), OBSO Fruity, OESO Fruity Vanilla"
                     },
                     {
@@ -89,7 +144,7 @@
                         "url": "https://www.hirschwhiskey.com/",
                         "description": "This first expression reflects the brand’s philosophy of curating the best American whiskey and celebrates ‘The Spirit of the Journey.’",
                         "tastingNotes": "On the nose, THE HORIZON offers a classic bourbon profile with sweet cornbread and vanilla. The palate is balanced with warm notes of cinnamon and oak, followed by a long finish with slight lingering sweetness.",
-                        "image": "images/hirsch_the_horizon.png",
+                        "image": "images/202010/hirsch_the_horizon.png",
                         "proof": "92",
                         "age": "5-6 years",
                         "distillery": "Hotaling and Co. (MGP sourced)",
@@ -102,7 +157,7 @@
                         "url": "https://www.highwest.com/",
                         "description": "Our American Prairie is a carefully crafted blend of straight bourbons at least 2 years old, making a great sipper and thoughtful person’s whiskey. High West supports the American Prairie Foundation.",
                         "tastingNotes": "Nose: Light caramel and sweet vanilla.<br/>Palate: Rich and earthy on the palate with well balanced flavors of candy corn, honey nougat and sweet corn bread biscuits.<br/>Finish: Vanilla with a hint of caramel apple,",
-                        "image": "images/high_west_american_prairie.png",
+                        "image": "images/202010/high_west_american_prairie.png",
                         "proof": "92",
                         "age": "2-13 years",
                         "distillery": "High West",
@@ -115,7 +170,7 @@
                         "url": "https://www.lone-elm.com/",
                         "description": "Soft winter wheat transformed by American white oak barrels and intense Texas sun to deliver a mellow and sweet spirit with a hearty finish hinting of vanilla and dried cherries.",
                         "tastingNotes": "Oak, vanilla, black cherry, dark chocolates and caramels.",
-                        "image": "images/lone_elm_small_batch.png",
+                        "image": "images/202010/lone_elm_small_batch.png",
                         "proof": "90",
                         "age": "NAS",
                         "distillery": "Five Points Distilling",
@@ -128,7 +183,7 @@
                         "url": "https://www.kentuckybourbonwhiskey.com/the-whiskeys/pure-kentucky/",
                         "description": "Aptly named, because when you think of Kentucky, you think Bourbon. First barrel in 1937, uses limestone water and owned by Willet Family Distillery.",
                         "tastingNotes": "The nose is toffee, fruit, eucalyptus and oak. The palate is cinnamon, toffee, caramel, pepper, oak, and spices.",
-                        "image": "images/pure_kentucky.png",
+                        "image": "images/202010/pure_kentucky.png",
                         "proof": "107",
                         "age": "NAS",
                         "distillery": "Willett Distillery",
