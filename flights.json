@@ -23,7 +23,7 @@
                 "name": "November 2020",
                 "description": "Main sample pack for November 2020.",
                 "url": "index.html?flight=November 2020",
-                "drams": []
+                "dataFile":"flights/202011-1.json"
             },
             {
                 "name": "November 2020 Special",
