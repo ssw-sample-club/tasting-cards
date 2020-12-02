@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Four Roses Small Batch Bourbon",
+        "url": "https://fourrosesbourbon.com/bourbon/small-batch/",
+        "description": "Four original Bourbon recipes have been expertly selected by our Master Distiller at the peak of maturation to create this very mellow and perfectly balanced Bourbon.",
+        "tastingNotes": "Nose: Mellow spice, rich fruit, hints of sweet oak and caramel.<br/>Palate: Mellow, ripened red berries, dried spice, well balanced, rich.<br/>Finish: Soft, smooth and pleasantly long.",
+        "proof": "90",
+        "age": "6-7 years",
+        "distillery": "Four Roses",
+        "location": "Lawrenceburg, KY",
+        "msrp": "$30",
+        "image": "images/202010/four_roses_small_batch.png",
+        "mashbill": "Two mash bills, and a blend of four recipes. OBSK (Rye Spice), OESK (Baking Spice), OBSO Fruity, OESO Fruity Vanilla"
+    },
+    {
+        "name": "Hirsch - The Horizon Bourbon",
+        "url": "https://www.hirschwhiskey.com/",
+        "description": "This first expression reflects the brand’s philosophy of curating the best American whiskey and celebrates ‘The Spirit of the Journey.’",
+        "tastingNotes": "On the nose, THE HORIZON offers a classic bourbon profile with sweet cornbread and vanilla. The palate is balanced with warm notes of cinnamon and oak, followed by a long finish with slight lingering sweetness.",
+        "image": "images/202010/hirsch_the_horizon.png",
+        "proof": "92",
+        "age": "5-6 years",
+        "distillery": "Hotaling and Co. (MGP sourced)",
+        "location": "Lawrenceburg, IN",
+        "msrp": "$40",
+        "mashbill": "94% of the blend is from a mash bill of 75% corn, 21% rye, 4% malted barley aged 5 years 4 months; 6% is from a high-rye mash aged 6 years 2 months for added complexity."
+    },
+    {
+        "name": "High West American Prairie Bourbon",
+        "url": "https://www.highwest.com/",
+        "description": "Our American Prairie is a carefully crafted blend of straight bourbons at least 2 years old, making a great sipper and thoughtful person’s whiskey. High West supports the American Prairie Foundation.",
+        "tastingNotes": "Nose: Light caramel and sweet vanilla.<br/>Palate: Rich and earthy on the palate with well balanced flavors of candy corn, honey nougat and sweet corn bread biscuits.<br/>Finish: Vanilla with a hint of caramel apple,",
+        "image": "images/202010/high_west_american_prairie.png",
+        "proof": "92",
+        "age": "2-13 years",
+        "distillery": "High West",
+        "location": "Park City, UT",
+        "msrp": "$35",
+        "mashbill": "Three straight bourbon whiskeys aged 2 to 13 years. 75% corn, 21% rye, 4% barley malt from MGP; 84% corn, 8% rye, 8% malted barley from undisclosed source."
+    },
+    {
+        "name": "Lone Elm Straight Wheat",
+        "url": "https://www.lone-elm.com/",
+        "description": "Soft winter wheat transformed by American white oak barrels and intense Texas sun to deliver a mellow and sweet spirit with a hearty finish hinting of vanilla and dried cherries.",
+        "tastingNotes": "Oak, vanilla, black cherry, dark chocolates and caramels.",
+        "image": "images/202010/lone_elm_small_batch.png",
+        "proof": "90",
+        "age": "NAS",
+        "distillery": "Five Points Distilling",
+        "location": "Forney, TX",
+        "msrp": "$45",
+        "mashbill": "90% Texas red winter wheat and 10% malted barley"
+    },
+    {
+        "name": "Pure Kentucky Bourbon",
+        "url": "https://www.kentuckybourbonwhiskey.com/the-whiskeys/pure-kentucky/",
+        "description": "Aptly named, because when you think of Kentucky, you think Bourbon. First barrel in 1937, uses limestone water and owned by Willet Family Distillery.",
+        "tastingNotes": "The nose is toffee, fruit, eucalyptus and oak. The palate is cinnamon, toffee, caramel, pepper, oak, and spices.",
+        "image": "images/202010/pure_kentucky.png",
+        "proof": "107",
+        "age": "NAS",
+        "distillery": "Willett Distillery",
+        "location": "Bardstown, KY",
+        "msrp": "$35",
+        "mashbill": "Undisclosed"
+    }
+]

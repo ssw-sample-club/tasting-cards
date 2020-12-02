@@ -14,23 +14,24 @@ function FlightListViewModel() {
             }
             return "";            
         };
-        this.expanded = () => {
-            if(this.getActive() == "active") return "true";
-            return "false";
-        };
         this.url = () => "";
     }
     function Flight(data) {
         this.name = ko.observable(data.name);
         this.description = ko.observable(data.description);
         this.url = ko.observable(data.url);
-        var mappedDrams = $.map(data.drams, d => new Dram(d));
-        this.drams = ko.observableArray(mappedDrams);
+        this.dataFile = ko.observable(data.dataFile);
+        //var mappedDrams = $.map(data.drams, d => new Dram(d));
+        this.drams = ko.observableArray([]);
         this.getActive = function () {
             var params = new URLSearchParams(window.location.search);
             if (params.has("flight")) {
                 if (params.get("flight") == this.name()) {
                     console.log(params.get("flight") + " is active");
+                    $.getJSON(this.dataFile(), flightData => {
+                        var mappedDrams = $.map(flightData, d => new Dram(d));
+                        this.drams(mappedDrams);
+                    });
                     return "active";
                 }
             }
