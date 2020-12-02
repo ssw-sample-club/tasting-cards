@@ -96,23 +96,36 @@ ul ul a {
     max-width: 600px;
     min-height: 400px;
 }
-
+.dram-center{
+    text-align: center;
+    margin:auto;
+    width:50%;
+    padding: 5px;
+}
+.dram-title{
+    text-align: center;
+}
 .dram-description {
     text-align: justify;
     font-size: small;
+    padding: 4px;
 }
 
 .dram-facts {
     font-size: small;
     vertical-align: top;
-    max-width: 100px;
-    min-width: 100px;
+    padding: 4px;
 }
 
 .dram-facts ul {
-    margin-left: 10px;
-    padding: 5px;
+    
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+}
+.dram-facts ul li {
+    padding: 4px;
 }
 
 a[data-toggle="collapse"] {
@@ -134,7 +147,7 @@ a[data-toggle="collapse"] {
 
 @media (max-width: 700px) {
     .dram {
-        min-width: 600px;
+        min-width: 500px;
     }
     #sidebar {
         margin-left: -350px;

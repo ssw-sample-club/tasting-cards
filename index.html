@@ -59,42 +59,36 @@
                 <div class="card dram">
                     <div class="card-block">
                         <div class="card-body">
-                            <table>
-                                <tr>
-                                    <td rowspan="2">
-                                        <img width=90 data-bind="attr: { src: image(), alt: name() }"></img>
-                                    </td>
-                                    <td>
-                                        <h5 class="card-title" data-bind="text: name()"></h5>
-                                    </td>
-                                    <td rowspan="2" class="dram-facts">
-                                        <ul>
-                                            <li><strong>Proof:</strong> <span data-bind="text: proof()"></span></li>
-                                            <li><strong>Age:</strong> <span data-bind="text: age()"></span></li>
-                                            <li><strong>Distillery:</strong> <span
-                                                    data-bind="text: distillery()"></span></li>
-                                            <li><strong>Location:</strong> <span data-bind="text: location()"></span>
-                                            </li>
-                                            <li><strong>MSRP:</strong> <span data-bind="text: msrp()"></span></li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="dram-description">
-                                        <strong>Description</strong><br />
-                                        <span data-bind="text: description()"></span><br />
-                                        <strong>Tasting Notes</strong><br />
-                                        <span data-bind="html: tastingNotes()"></span>
-                                        <br /><strong>Mashbill</strong><br /><span data-bind="text: mashbill()"></span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="3" style="text-align: center;">
-                                        <a target="_blank" class="dram-link" data-bind="attr: { href: url()}">Official
-                                            Website</a>
-                                    </td>
-                                </tr>
-                            </table>
+                            <h5 class="card-title dram-title" data-bind="text: name()"></h5>
+                            <div class="row">
+                                <div class="col-md-2 dram-center">
+                                    <img width=90 data-bind="attr: { src: image(), alt: name() }"></img>
+                                </div>
+                                <div class="dram-description col-md-7">
+                                    <strong>Description</strong><br />
+                                    <span data-bind="text: description()"></span><br />
+                                    <strong>Tasting Notes</strong><br />
+                                    <span data-bind="html: tastingNotes()"></span>
+                                    <br /><strong>Mashbill</strong><br /><span data-bind="text: mashbill()"></span>
+                                </div>
+                                <div class="col-md-3 dram-facts">
+                                    <ul class="list-unstyled">
+                                        <li><strong>Proof:</strong> <span data-bind="text: proof()"></span></li>
+                                        <li><strong>Age:</strong> <span data-bind="text: age()"></span></li>
+                                        <li><strong>Distillery:</strong> <span data-bind="text: distillery()"></span>
+                                        </li>
+                                        <li><strong>Location:</strong> <span data-bind="text: location()"></span>
+                                        </li>
+                                        <li><strong>MSRP:</strong> <span data-bind="text: msrp()"></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="dram-center">
+                                    <a target="_blank" class="dram-link" data-bind="attr: { href: url()}">Official
+                                        Website</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
