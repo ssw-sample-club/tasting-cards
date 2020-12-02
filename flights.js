@@ -78,6 +78,10 @@ function FlightListViewModel() {
 }
 
 $(document).ready(function () {
+    var params = new URLSearchParams(window.location.search);
+    if (params.has("flight")){
+        document.title = params.get("flight");
+    }
     ko.applyBindings(new FlightListViewModel());
     $('#sidebarCollapse').on('click', function () {
         $('#sidebar').toggleClass('active');
