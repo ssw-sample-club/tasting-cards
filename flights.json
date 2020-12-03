@@ -29,7 +29,7 @@
                 "name": "November 2020 Special",
                 "description": "Wild Turkey Special.",
                 "url": "index.html?flight=November 2020 Special",
-                "drams": []
+                "dataFile":"flights/202011-2.json"
             }
         ]
     },
