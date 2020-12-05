@@ -1,5 +1,16 @@
 [
     {
+        "month": "January 2021",
+        "flights": [
+            {
+                "name": "New Years 2021 Special",
+                "description": "Say goodbye to 2020 like a Boss!",
+                "url":"index.html?flight=New Years 2021 Special",
+                "dataFile":"flights/202101-NY.json"
+            }
+        ]
+    },
+    {
         "month": "December 2020",
         "flights": [
             {
