@@ -17,13 +17,15 @@
                 "name": "December 2020 Flight 1",
                 "description": "The 12 Ryes of Christmas part 1",
                 "url": "index.html?flight=December 2020 Flight 1",
-                "dataFile": "flights/202012-1.json"
+                "dataFile": "flights/202012-1.json",
+                "pdf": "pdf/202012-flight-1.pdf"
             },
             {
                 "name": "December 2020 Flight 2",
                 "description": "The 12 Ryes of Christmas part 2",
                 "url": "index.html?flight=December 2020 Flight 2",
-                "dataFile": "flights/202012-2.json"
+                "dataFile": "flights/202012-2.json",
+                "pdf": "pdf/202012-flight-2.pdf"
             }
         ]
     },

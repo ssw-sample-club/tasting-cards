@@ -21,7 +21,7 @@ function FlightListViewModel() {
         this.description = ko.observable(data.description);
         this.url = ko.observable(data.url);
         this.dataFile = ko.observable(data.dataFile);
-        //var mappedDrams = $.map(data.drams, d => new Dram(d));
+        this.pdf = ko.observable(data.pdf);
         this.drams = ko.observableArray([]);
         this.getActive = function () {
             var params = new URLSearchParams(window.location.search);

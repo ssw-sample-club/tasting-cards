@@ -69,6 +69,7 @@
                     <div class="container">
                         <h1 class="display-4" data-bind="text: activeFlight().name()"></h1>
                         <p class="lead" data-bind="text: activeFlight().description()"></p>
+                        <a data-bind="if: activeFlight().pdf(), attr:{ href: activeFlight().pdf() }" target="_blank">Download card</a>
                     </div>
                 </div>
             </div>
