@@ -3,6 +3,18 @@
         "month": "January 2021",
         "flights": [
             {
+                "name":"Boss Hog VI Special",
+                "description":"Boss Hog 六: The Samurai Scientist",
+                "url":"index.html?flight=Boss Hog VI Special",
+                "dataFile":"flights/202101-BHVI.json"
+            },
+            {
+                "name": "Boss Hog V Special",
+                "description": "Boss Hog V: The Spirit of Mauve",
+                "url":"index.html?flight=Boss Hog V Special",
+                "dataFile":"flights/202101-BHV.json"
+            },
+            {
                 "name": "New Years 2021 Special",
                 "description": "Say goodbye to 2020 like a Boss!",
                 "url":"index.html?flight=New Years 2021 Special",
