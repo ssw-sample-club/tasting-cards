@@ -15,6 +15,12 @@
                 "dataFile":"flights/202101-BHV.json"
             },
             {
+                "name": "January 2021 Flight 1",
+                "description": "Rabbit Hole Series (with limited \"The Spaniard\" club pick)",
+                "url":"index.html?flight=January 2021 Flight 1",
+                "dataFile":"flights/202101-1.json"
+            },
+            {
                 "name": "New Years 2021 Special",
                 "description": "Say goodbye to 2020 like a Boss!",
                 "url":"index.html?flight=New Years 2021 Special",
