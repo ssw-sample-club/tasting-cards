@@ -18,7 +18,8 @@
                 "name": "January 2021 Flight 1",
                 "description": "Rabbit Hole Series (with limited \"The Spaniard\" club pick)",
                 "url":"index.html?flight=January 2021 Flight 1",
-                "dataFile":"flights/202101-1.json"
+                "dataFile":"flights/202101-1.json",
+                "pdf": "pdf/202101-flight-1.pdf"
             },
             {
                 "name": "New Years 2021 Special",
