@@ -3,6 +3,12 @@
         "month": "January 2021",
         "flights": [
             {
+                "name":"The Prideful Goat Special",
+                "description":"Collaboration with SSW, Whiskey Pete, and Bourbon Real Talk",
+                "url":"index.html?flight=The Prideful Goat Special",
+                "dataFile":"flights/202101-PG.json"
+            },
+            {
                 "name":"Boss Hog VI Special",
                 "description":"Boss Hog 六: The Samurai Scientist",
                 "url":"index.html?flight=Boss Hog VI Special",
