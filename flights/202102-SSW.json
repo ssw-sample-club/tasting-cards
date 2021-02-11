@@ -1,0 +1,44 @@
+[
+    {
+        "timestamp": "2020-12-01T17:59:25.037Z",
+        "name": "Rossville Union Bottled in Bond - Rocko's Modern Rye",
+        "description": "For nearly 200 years, Lawrenceburg's master distillers and blenders have been perfecting the original handcrafted rye blends in one of America's last Prohibition-era distilleries. Bottled annually, this single barrel is only available through private selection.",
+        "tastingNotes": "Slightly smoky with robust, spicy finish with a hint of cherry.",
+        "proof": "100",
+        "age": "5-6 years",
+        "distillery": "MGP",
+        "location": "Lawrenceburg, IN",
+        "msrp": "$55",
+        "mashbill": "51% rye",
+        "url": "https://www.rossvilleunion.com/",
+        "image": "images/202102-SSW/rockos-modern-rye.png"
+    },
+    {
+        "timestamp": "2020-12-01T17:59:25.037Z",
+        "name": "Old Elk Straight Wheat Whiskey - Elk Hunt",
+        "description": "Made in the spirit of the acclaimed 95 percent rye whiskey, this whiskey is a vivacious and refreshing spirit that is reinventing what it means to be a sipping whiskey.",
+        "tastingNotes": "Buttery sweet vanilla and caramel, with a touch of baking spice.",
+        "proof": "114",
+        "age": "5-6 years",
+        "distillery": "Old Elk",
+        "location": "Fort Collins, CO",
+        "msrp": "$70",
+        "mashbill": "95% red winter wheat 5% malted barley",
+        "url": "https://www.oldelk.com/",
+        "image": "images/202102-SSW/elk-hunt.png"
+    },
+    {
+        "timestamp": "2020-12-01T17:59:25.037Z",
+        "name": "Russell's Reserve Private Selection - Wakanda Forever",
+        "description": "Matured in only the deepest No. 4 “alligator” char, American White Oak barrels handpicked by our master distillers. Individually bottled at 110 proof and non-chill filtered to guarantee maximum flavor, each barrel has its own unique personality.",
+        "tastingNotes": "Notes of cinnamon, oak and spicy wood are nicely balanced with undertones of vanilla, crème brûlée and honey, and ultimately lead to a deep and rich finish.",
+        "proof": "110",
+        "age": "9 years",
+        "distillery": "Wild Turkey",
+        "location": "Lawrenceburg, KY",
+        "msrp": "$60",
+        "mashbill": "75% corn, 13% rye, 12% malted barley",
+        "url": "https://wildturkeybourbon.com/product/russells-reserve-single-barrel/",
+        "image": "images/202102-SSW/wakanda.png"
+    }
+]

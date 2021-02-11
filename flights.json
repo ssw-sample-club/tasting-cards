@@ -1,5 +1,16 @@
 [
     {
+        "month": "February 2021",
+        "flights":[
+            {
+                "name": "SSW Club Picks (2021-02)",
+                "description": "Rocko's Modern Rye, Elk Hunt, and Wakanda Forever",
+                "url":"index.html?flight=SSW Club Picks (2021-02)",
+                "dataFile":"flights/202102-SSW.json"
+            }
+        ]
+    },
+    {
         "month": "January 2021",
         "flights": [
             {
