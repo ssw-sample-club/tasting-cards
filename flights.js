@@ -6,7 +6,7 @@ function FlightListViewModel() {
         this.getActive = () => {
             var params = new URLSearchParams(window.location.search);
             if (params.has("flight")) {
-                var flight = this.flights().find(f => f.name().toLowerCase() == params.get("flight").toLowerCase());
+                var flight = this.flights().find(f => f.id().toLowerCase() == params.get("flight").toLowerCase());
                 if (flight) {
                     console.log("Active month:", this.month());
                     return "active";
@@ -17,6 +17,7 @@ function FlightListViewModel() {
         this.url = () => "";
     }
     function Flight(data) {
+        this.id = ko.observable(data.id);
         this.name = ko.observable(data.name);
         this.description = ko.observable(data.description);
         this.url = ko.observable(data.url);
@@ -26,7 +27,7 @@ function FlightListViewModel() {
         this.getActive = function () {
             var params = new URLSearchParams(window.location.search);
             if (params.has("flight")) {
-                if (params.get("flight") == this.name()) {
+                if (params.get("flight") == this.id()) {
                     console.log(params.get("flight") + " is active");
                     $.getJSON(this.dataFile(), flightData => {
                         var mappedDrams = $.map(flightData, d => new Dram(d));
@@ -67,7 +68,7 @@ function FlightListViewModel() {
         var params = new URLSearchParams(window.location.search);
         if (params.has("flight") && self.months()) {
             self.months().forEach(m => {
-                var flight = m.flights().find(f => f.name().toLowerCase() == params.get("flight").toLowerCase());
+                var flight = m.flights().find(f => f.id().toLowerCase() == params.get("flight").toLowerCase());
                 if(flight){
                     self.activeFlight(flight);
                 }
