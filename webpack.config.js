@@ -9,7 +9,7 @@ module.exports = {
     },
     devtool: 'inline-source-map',
     devServer: {
-        static: './docs',
+        static: './',
         port: 89,
     },
     plugins: [
@@ -28,6 +28,6 @@ module.exports = {
     },
     output: {
         filename: '[name].bundle.js',
-        path: path.resolve(__dirname, 'docs'),
+        path: path.resolve(__dirname),
     },
 };
