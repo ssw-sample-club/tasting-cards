@@ -1,0 +1,125 @@
+<HTML>
+
+<HEAD>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W6CTBH8');</script>
+    <!-- End Google Tag Manager -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <link rel="icon" type="image/png" href="images/sample-club.png">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./index.bundle.js"></script>
+    <link rel="stylesheet" href="./site.css" />
+</HEAD>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6CTBH8" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Sample Pack Flights</h3>
+            </div>
+            <ul class="list-unstyled sub-header" data-bind="foreach: months">
+                <li class="active">
+                    <p data-bind="text: month()"></p>
+                    <ul class="list-unstyled" data-bind="foreach: flights">
+                        <li data-bind="attr: { class: cssClass }">
+                            <a data-bind="click: $root.setActiveFlight, text:name" href="#"></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="content">
+            <div>
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    View Flights
+                </button>
+
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4" data-bind="text: activeFlight().name()"></h1>
+                        <p class="lead" data-bind="text: activeFlight().description()"></p>
+                        <a data-bind="if: activeFlight().pdf(), attr:{ href: activeFlight().pdf() }"
+                            target="_blank">Download card</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group" data-bind="foreach: activeFlight().drams()">
+                <div class="card dram">
+                    <div class="container-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title dram-title" data-bind="html: name()"></h5>
+                            <div class="row">
+                                <div class="dram-center col-sm-2">
+                                    <img width=90 data-bind="attr: { src: image(), alt: name() }"></img>
+                                </div>
+                                <div class="dram-description col-sm-7">
+                                    <strong>Description</strong><br />
+                                    <span data-bind="html: description()"></span><br />
+                                    <strong>Tasting Notes</strong><br />
+                                    <span data-bind="html: tastingNotes()"></span>
+                                    <br /><strong>Mashbill</strong><br /><span data-bind="html: mashbill()"></span>
+                                </div>
+                                <div class="dram-facts col-sm-2">
+                                    <ul class="list-unstyled">
+                                        <li><strong>Proof:</strong> <span data-bind="text: proof()"></span></li>
+                                        <li><strong>Age:</strong> <span data-bind="text: age()"></span></li>
+                                        <li><strong>Distillery:</strong> <span data-bind="text: distillery()"></span>
+                                        </li>
+                                        <li><strong>Location:</strong> <span data-bind="text: location()"></span>
+                                        </li>
+                                        <li><strong>MSRP:</strong> <span data-bind="text: msrp()"></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="dram-center">
+                                    <a target="_blank" class="dram-link" data-bind="attr: { href: url()}">Official
+                                        Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button id="testButton">Test</button>
+    </div>
+</body>
+
+</HTML>
