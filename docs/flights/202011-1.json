@@ -1,0 +1,72 @@
+[
+    {
+        "timestamp": "2020-12-02T16:24:53.958Z",
+        "name": "Pinhook Bourbon War 4 Yr",
+        "description": "Vertical Series is an opportunity to follow barrels, all filled within months of each other, as they age. Over the next 9 years, 150 bourbon barrels and 50 rye barrels to be blended and proofed creating the most balanced expression for the vintage.",
+        "tastingNotes": "Bright nose of tropical fruit, butterscotch and cedar leading to a rich and vibrant palate of dried fig, cocoa, roasted peanut and clove.",
+        "proof": 98,
+        "age": "4 years",
+        "distillery": "CJS Beverage Corp. (MGP  Sourced)",
+        "location": "New York, NY",
+        "msrp": 45,
+        "mashbill": "Made from a mashbill of 75% Corn, 20.5% Rye, and 4.5% Malted Barley (MGP sourced)",
+        "url": "https://www.pinhookbourbon.com/pages/vertical-series-bourbon-4y",
+        "image": "images/202011-1/BW-VS4_x900.png"
+    },
+    {
+        "timestamp": "2020-12-02T22:49:02.663Z",
+        "name": "Bib & Tucker Small Batch",
+        "description": "Like the 1880s that inspired it, boldness and refinement come together to create a bourbon that’s meant to be raised in celebration. Aged for 6 years in low char white oak barrels produces unparalleled smoothness.",
+        "tastingNotes": "Nose: Scent of strong vanilla and sweet hay and is accented by a whiff of sandalwood and mace.<br/>Taste: Balanced with a hint of pecan pie sweetness, evolving into warm, rich, spicy sensation.<br/>Finish: Long-lasting chestnut finish",
+        "proof": 92,
+        "age": "6 years",
+        "distillery": "Deutsch Family Wine & Spirits",
+        "location": "Crestwood, KY",
+        "msrp": 50,
+        "mashbill": "Mash bill of 70 percent corn, 26 percent rye, and 4 percent malt. (Tennessee sourced)",
+        "url": "https://bibandtuckerbourbon.com/our-bourbon/",
+        "image": "images/202011-1/bib_tucker_small_batch.png"
+    },
+    {
+        "timestamp": "2020-12-02T22:55:56.479Z",
+        "name": "Nine Banded Wheated Bourbon",
+        "description": "Wheated bourbon whiskey crafted from a unique blend of wheat, corn, and malted barley brought to life with limestone-filtered water from the Texas hill country.",
+        "tastingNotes": "Golden honey color, slightly viscous with a pleasant mouthfeel. \nA confectionary palate with notes of dehydrated stone fruit and fresh wood with a sweet long finish.",
+        "proof": 90,
+        "age": "2 years",
+        "distillery": "None Banded",
+        "location": "Austin, TX",
+        "msrp": 28,
+        "mashbill": "45% wheat - 51% corn - 4% malted barley (MGP sourced)",
+        "url": "https://www.ninebandedwhiskey.com/wheated-bourbon",
+        "image": "images/202011-1/nine_banded_wheated.png"
+    },
+    {
+        "timestamp": "2020-12-02T23:03:13.883Z",
+        "name": "Belle Meade Sour Mash",
+        "description": "Each batch of our proprietary blend consists of just 4 barrels and creates the signature flavor profile that makes Belle Meade Bourbon the award-winning Bourbon of choice for the discerning whiskey drinker.",
+        "tastingNotes": "Nose: Maple syrup and caramel with floral fragrances and a citrus zest.<br/>Palate: Caramel and vanilla with bold rye spice and hints of apricot.<br/>Finish: Long finish with mellow cherry and plum notes accented by Cinnamon.",
+        "proof": 90.4,
+        "age": "6-8 years",
+        "distillery": "Nelson's Green Brier",
+        "location": "Nashville, TN",
+        "msrp": 47,
+        "mashbill": "64% corn, 30% rye, and 6% malted barley. (MGP sourced)",
+        "url": "https://www.bellemeadebourbon.com/belle-meade-bourbon/",
+        "image": "images/202011-1/belle_meade_sour_mash.png"
+    },
+    {
+        "timestamp": "2020-12-02T23:07:50.262Z",
+        "name": "Chattanooga Whiskey 91",
+        "description": "Whiskey 91 is a four grain straight bourbon which the company labels a Tennessee High Malt whiskey. The bourbon is aged for at least 2 years in two different charred and toasted white oak barrels before undergoing a Solera finishing process.",
+        "tastingNotes": "Delivers a balanced, confection-rich barrel character, and harmonizes with the malty-rich spirit. Expect notes of dried apricot, sweet tea and honeyed toast.",
+        "proof": 91,
+        "age": "2 years",
+        "distillery": "Chattanooga Whiskey",
+        "location": "Chattanooga, TN",
+        "msrp": 35,
+        "mashbill": "Yellow Corn, Malted Rye, Caramel Malted Barley & Honey Malted Barley",
+        "url": "https://chattanoogawhiskey.com/product/chattanooga-whiskey-91/",
+        "image": "images/202011-1/chattanooga_91.png"
+    }
+]

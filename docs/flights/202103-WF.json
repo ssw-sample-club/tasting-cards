@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Johnny Drum Private Stock",
+        "description": "Boys under the age of 18 that wanted to join the service during the American Civil War often were able to do so as drummers or messengers. This whiskey is named as homage of their service. Sourced by Kentucky Bourbon Distillers, this is a small batch, Kentucky Straight Bourbon bottled at 101 proof.",
+        "tastingNotes": "The nose is sour apple, vanilla, and oak. The palate is a snowball rolling over fruits, vanilla, and spices, mixing them all together into a well balanced and complex Whiskey.",
+        "proof": "101",
+        "age": "NAS",
+        "distillery": "Kentucky Bourbon Distillers (Willett)",
+        "location": "Bardstown, KY",
+        "msrp": "35",
+        "mashbill": "Undisclosed",
+        "url": "https://www.kentuckybourbonwhiskey.com/the-whiskeys/johnny-drum-private-stock/",
+        "image": "images/202103-WF/johnny-drum-private.png"
+    },
+    {
+        "name": "Rowan's Creek Straight Bourbon",
+        "description": "Rowan's Creek is named for the creek that runs through the distillery and part of the Small Batch Collection of bourbon made in honor of the Kentucky tradition of whiskey. It is bottled at 100.1 proof and crafted in small batches.",
+        "tastingNotes": "On the nose sweet caramel corn, baking spice, brown sugar. The palate is sweet with enough heat and spice to balance this spirit and create fantastic flavors. The finish is medium long with sweet caramel and baking spice.",
+        "proof": "100.1",
+        "age": "NAS",
+        "distillery": "Kentucky Bourbon Distillers (Willett)",
+        "location": "Bardstown, KY",
+        "msrp": "35",
+        "mashbill": "Undisclosed",
+        "url": "https://www.kentuckybourbonwhiskey.com/the-whiskeys/rowans-creek/",
+        "image": "images/202103-WF/rowans-creek.png"
+    },
+    {
+        "name": "Noah's Mill Straight Bourbon",
+        "description": "Willett distills its own whiskeys but also sources others. This is sourced from other distilleries in Kentucky, the mash bill is not disclosed, and the age statement that was once on it was removed (it used to be a 15 year old whiskey).",
+        "tastingNotes": "An aroma of dark coffee, vanilla, raisins and toffee. The initial hints of figs, dates, and dark fruits give way to notes of cocoa, marmalade, berries, roasted nuts and toffee, and lead to a lengthy, spicy finish.",
+        "proof": "114.3",
+        "age": "NAS",
+        "distillery": "Kentucky Bourbon Distillers (Willett)",
+        "location": "Bardstown, KY",
+        "msrp": "50",
+        "mashbill": "Undisclosed",
+        "url": "https://www.kentuckybourbonwhiskey.com/the-whiskeys/noahs-mill/",
+        "image": "images/202103-WF/noahs-mill.png"
+    },
+    {
+        "name": "Willet Pot Still Reserve Straight Bourbon",
+        "description": "Originally introduced as a single barrel beginning in 2008. Around 2015, it was quietly changed over to a small batch bourbon. Willett Distillery resumed distillation after a lengthy hiatus starting in 2012, it continues to be sourced from undisclosed distillery(ies) in Kentucky.",
+        "tastingNotes": "Nose of summer fruits highlighted by ripe cherry and a pinch of citrus envelope a mingling of vanilla and dry oak. Palate is honey and caramel combined to form a sweet note against a light punch of spice and zesty citrus. Finish is a surge of rye spice crescendos initially, followed by a delicate sprinkling of cinnamon",
+        "proof": "94",
+        "age": "NAS",
+        "distillery": "Kentucky Bourbon Distillers (Willett)",
+        "location": "Bardstown, KY",
+        "msrp": "50",
+        "mashbill": "Undisclosed",
+        "url": "https://www.kentuckybourbonwhiskey.com/the-whiskeys/willett-pot-still-reserve/",
+        "image": "images/202103-WF/pot-still.png"
+    },
+    {
+        "name": "Willett Family Estate 4 Year Straight Rye",
+        "description": "In 2010 Willett started distilling their own whiskey on-site for the first time in over 30 years..Since then they have continued to age their rye whiskey and have stuck with a four year age statement for their standard rye product. It is a small batch and is released at barrel proof.",
+        "tastingNotes": "Nose of brandied cherry over a mildly tart cherry then cinnamon and baking spices with just a hint of oak.  Palate is a robust rye with dark cherry, burnt vanilla, and spices. Finish - spices dominate.",
+        "proof": "varies (104-115)",
+        "age": "4 Years",
+        "distillery": "Kentucky Bourbon Distillers (Willett)",
+        "location": "Bardstown, KY",
+        "msrp": "55",
+        "mashbill": "A blend of Willett high rye mashbill (74% rye, 11% corn, 15% malted barley) with the  Willett low rye mashbill (51% rye, 34% corn, 15% malted barley)",
+        "url": "https://www.kentuckybourbonwhiskey.com/the-whiskeys/willett-family-estate-bottled-4-year-rye/",
+        "image": "images/202103-WF/willett-rye.png"
+    }
+]

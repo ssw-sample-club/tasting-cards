@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Tumblin' Dice \"Casino\" Single Barrel",
+        "description": "Someone Say Whiskey is proud to present “Casino”, a 4+ year Tumblin’ Dice Bourbon. This was the first private barrel selection done in Texas for this up and coming brand.",
+        "tastingNotes": "",
+        "proof": "114",
+        "age": "4 years",
+        "distillery": "Proof and Wood (MGP source)",
+        "location": "Lawrenceburg, IN",
+        "msrp": "$50",
+        "mashbill": "60% corn, 36% rye, 4% malted barley",
+        "url": "https://www.proofandwood.com/tumblin-dice",
+        "image": "images/202104-SSW/tumblin dice.png"
+    },
+    {
+        "name": "NULU Straight Bourbon",
+        "description": "Someone Say Whiskey is proud to present Nulu, a 6 yr 2 mo Straight Bourbon. This is the first private barrel selection sold through a retailer in Texas!",
+        "tastingNotes": "Classic MGP with hints of cinnamon, chocolate, and tobacco. Rye spices show up heavily in the finish.",
+        "proof": "119.4",
+        "age": "6 years",
+        "distillery": "Nulu (MGP source)",
+        "location": "Lawrenceburg, IN",
+        "msrp": "$80",
+        "mashbill": "75% corn, 21% rye, 4% malted barley",
+        "url": "https://prohibitioncraftspirits.com/our-spirits/",
+        "image": "images/202104-SSW/nulu.png"
+    },
+    {
+        "name": "Litchfield \"The Batcher\" Straight Bourbon",
+        "description": "Someone Say Whiskey is proud to present The Batcher - Litchfield 4 yr Straight Bourbon at cask strength. This is Series I of our vertical series with Litchfield. We will release a progressively older (by 1 yr) barrel every year for the next 8 when we are at 12 yr! ",
+        "tastingNotes": "",
+        "proof": "125",
+        "age": "4 years",
+        "distillery": "Litchfield",
+        "location": "Litchfield, CT",
+        "msrp": "$55",
+        "mashbill": "Undisclosed",
+        "url": "https://litchfielddistillery.com/spirit/straight-bourbon-whiskey/",
+        "image": "images/202104-SSW/litchfield.png"
+    },
+    {
+        "name": "Unallocated Batch 1",
+        "description": "Unallocated is a private label 6+yr MGP blend of 3 single barrels carefully selected by the admins of SSW then additionally aged in Texas, blended and bottled at Ironroot.",
+        "tastingNotes": "",
+        "proof": "117.7",
+        "age": "6 years",
+        "distillery": "Ironroot (MGP source)",
+        "location": "Lawrenceburg, IN",
+        "msrp": "$90",
+        "mashbill": "60% corn, 36% rye, 4% malted barley",
+        "url": "https://www.facebook.com/groups/someonesaywhiskey",
+        "image": "images/202104-SSW/unallocated.png"
+    }
+]
