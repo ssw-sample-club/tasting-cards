@@ -48,7 +48,7 @@
                     <p data-bind="text: month()"></p>
                     <ul class="list-unstyled" data-bind="foreach: flights">
                         <li data-bind="attr: { class: cssClass }">
-                            <a data-bind="click: $root.setActiveFlight, text:name" href="#"></a>
+                            <a data-bind="click: $root.setActiveFlight, text:name, attr: { href: url }"></a>
                         </li>
                     </ul>
                 </li>
