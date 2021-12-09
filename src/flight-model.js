@@ -102,7 +102,7 @@ function FlightListViewModel() {
         self.activeFlight(flight);
         console.log("Active flight: ", self.activeFlight().name());
         if (flight.url()) {
-            var url = `${window.location.origin}/${flight.url()}`;
+            var url = `${flight.url()}`;
             console.log("Flight URL", url);
             window.history.pushState({}, '', url);
         }
