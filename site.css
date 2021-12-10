@@ -99,7 +99,7 @@ ul ul a {
 .dram {
     min-width: 600px;
     max-width: 600px;
-    min-height: 400px;
+    min-height: 500px;
     border: 1px solid rgba(0,0,0,.125) !important;
     margin-left: 2px !important;
     margin-top: 2px !important;
@@ -108,7 +108,6 @@ ul ul a {
 .dram-center {
     text-align: center;
     margin: auto;
-    width: 50%;
     padding: 5px;
 }
 

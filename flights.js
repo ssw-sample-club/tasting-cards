@@ -1,3 +1,5 @@
+import getData from 'flights-data';
+
 function FlightListViewModel() {
     function Month(data) {
         this.month = ko.observable(data.month);
@@ -86,5 +88,14 @@ $(document).ready(function () {
     ko.applyBindings(new FlightListViewModel());
     $('#sidebarCollapse').on('click', function () {
         $('#sidebar').toggleClass('active');
+    });
+    var payload = {
+        "operation": "list",
+        "tableName": "flight-month",
+        "payload": {}
+    };
+
+    $('#testButton').on('click', function(){
+        getData();
     });
 });
