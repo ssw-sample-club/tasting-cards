@@ -1,0 +1,67 @@
+[
+    {
+        "name": "WhistlePig 12 Year Bespoke 100% Amburana East Side pick",
+        "description": "East Side restaurant in Denton, TX has an extensive whiskey selection. This 12 Year Bespoke Rye was finished in 100% Amburana (Brazilian Teak wood) casks.",
+        "tastingNotes": "",
+        "proof": "86",
+        "age": "12 years",
+        "distillery": "WhistlePig",
+        "location": "Shoreham, VT",
+        "msrp": "$125",
+        "mashbill": "100% rye",
+        "url": "https://whistlepigwhiskey.com/",
+        "image": "images/202104-WP2/whistlepig-12-bespoke.png"
+    },
+    {
+        "name": "WhistlePig 10 Year East Side pick",
+        "description": "East Side restaurant in Denton, TX has an extensive whiskey selection. This is a cask strength single barrel selection.",
+        "tastingNotes": "",
+        "proof": "118.5",
+        "age": "10 years",
+        "distillery": "WhistlePig",
+        "location": "Shoreham, VT",
+        "msrp": "$90",
+        "mashbill": "100% rye",
+        "url": "https://whistlepigwhiskey.com/",
+        "image": "images/202104-WP2/wistlepig-10-single.png"
+    },
+    {
+        "name": "WhistlePig Ginger Fashioned Cocktail To-Go",
+        "description": "Barrel-aged ready to drink WhistlePig PiggyBack Old Fashioned made with Runamok maple syrup infused with raw ginger.",
+        "tastingNotes": "",
+        "proof": "70",
+        "age": "",
+        "distillery": "WhistlePig",
+        "location": "Shoreham, VT",
+        "msrp": "$35",
+        "mashbill": "N/A",
+        "url": "https://whistlepigwhiskey.com/",
+        "image": "images/202104-WP2/Ginger-Fashioned.png"
+    },
+    {
+        "name": "WhistlePig Orange Fashioned Cocktail To-Go",
+        "description": "Barrel-aged ready to drink WhistlePig PiggyBack Old Fashioned made with Runamok maple syrup infused with orange essence.",
+        "tastingNotes": "",
+        "proof": "70",
+        "age": "",
+        "distillery": "WhistlePig",
+        "location": "Shoreham, VT",
+        "msrp": "$35",
+        "mashbill": "N/A",
+        "url": "https://whistlepigwhiskey.com/",
+        "image": "images/202104-WP2/Orange-Fashioned.png"
+    },
+    {
+        "name": "WhistlePig Ginger Fashioned Cocktail To-Go",
+        "description": "Barrel-aged ready to drink WhistlePig PiggyBack Old Fashioned made with Runamok maple syrup smoked with becan wood.",
+        "tastingNotes": "",
+        "proof": "70",
+        "age": "",
+        "distillery": "WhistlePig",
+        "location": "Shoreham, VT",
+        "msrp": "$35",
+        "mashbill": "N/A",
+        "url": "https://whistlepigwhiskey.com/",
+        "image": "images/202104-WP2/Smoked-Fashioned.png"
+    }
+]
